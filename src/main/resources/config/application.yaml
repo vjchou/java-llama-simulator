@@ -1,0 +1,15 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration will be overridden by the Spring profile you use,
+# for example application-dev.yaml if you use the "dev" profile.
+#
+# ===================================================================
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: java-llama-simulator
+  jackson:
+    serialization:
+      indent-output: true
